@@ -1,0 +1,98 @@
+* {margin: 0; padding: 0;}
+
+.title {
+    text-align: center;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 60%;
+    height: 60%;
+    text-align: center;
+    background-color: white;
+    line-height: 175%;
+    margin: auto;
+}
+
+.foodtime {
+    background-color:#ff6;
+}
+
+.foodtime a {
+    color: orange;
+    text-decoration: none;
+}
+
+.horizontal_head {
+    color: rgb(0, 134, 134);
+    border: 1px solid black;
+    background-color: aquamarine;
+}
+
+.vertical_head {
+    color: rgb(0, 134, 134);
+    border: 1px solid black;
+    background-color: rgb(203, 255, 238);
+}
+
+table td {
+    color: rgb(0, 190, 190);
+    background-color: rgb(243, 255, 251);
+    border: 1px solid black;
+}
+
+.speciality_option {
+    color: rgb(217, 215, 252);
+    text-shadow: -2px 0px black,
+    0px 2px black, 2px 0px black, 0px -2px black;
+}
+
+.speciality {
+    color: rgb(13, 0, 255);
+    background-color: rgb(217, 215, 252);
+    font-weight: bold;
+}
+
+.speciality:hover {
+    color: rgb(255, 0, 0);
+    background-color: rgb(252, 215, 215);
+    font-weight: bold;
+}
+
+#input-class {
+    padding: 40px;
+    text-align: center;
+}
+
+#class_search {
+    border-radius: 10px;
+    background-color: rgb(228, 228, 255);
+    border: 2px solid rgb(0, 0, 185);
+    padding: 20px;
+    position: relative;
+    margin-bottom: 20px;
+    color: blue;
+    font-weight: bold;
+    width: 250px;
+}
+
+#class_search::placeholder {
+    font-size: 15px;
+    color: blue;
+    opacity: 0.5;
+}
+
+.confirm {
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: rgb(198, 198, 255);
+    border: 2px dashed rgb(0, 0, 185);
+    padding: 10px;
+    position: relative;
+    color: blue;
+    font-weight: bold;
+    margin: 10px;
+}
